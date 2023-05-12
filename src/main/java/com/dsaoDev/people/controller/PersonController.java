@@ -27,17 +27,17 @@ public class PersonController {
 	private PersonService personService;
 	
 	@GetMapping(value = "/{id}")
-	private ResponseEntity<PersonResponseDTO> findById(@PathVariable(name = "id") Long id) {
+	public ResponseEntity<PersonResponseDTO> findById(@PathVariable(name = "id") Long id) {
 		return ResponseEntity.ok().body(personService.findById(id));
 	}
 	
 	@GetMapping
-	private ResponseEntity<List<PersonResponseDTO>> findAll(){
+	public ResponseEntity<List<PersonResponseDTO>> findAll(){
 		return ResponseEntity.ok().body(personService.findAll());
 	}
 	
 	@PostMapping
-	private ResponseEntity<PersonResponseDTO> save(@RequestBody PersonRequestDTO personRequestDTO, UriComponentsBuilder uriBuilder){
+	public ResponseEntity<PersonResponseDTO> save(@RequestBody PersonRequestDTO personRequestDTO, UriComponentsBuilder uriBuilder){
 		PersonResponseDTO personResponseDTO = personService.save(personRequestDTO);
 		URI uri  = uriBuilder.path("/people/{id}").buildAndExpand(personResponseDTO.getId()).toUri();
 		return ResponseEntity.created(uri).body(personResponseDTO);
@@ -45,12 +45,12 @@ public class PersonController {
 	}
 	
 	@PutMapping(value = "/{id}")
-	private ResponseEntity<PersonResponseDTO> update (@RequestBody PersonRequestDTO personRequestDTO, @PathVariable(name = "id") Long id){
+	public ResponseEntity<PersonResponseDTO> update (@RequestBody PersonRequestDTO personRequestDTO, @PathVariable(name = "id") Long id){
 		return ResponseEntity.ok().body(personService.update(personRequestDTO, id));
 	}
 	
 	@DeleteMapping
-	private ResponseEntity<String> delete (@PathVariable(name =  "id") Long id){
+	public ResponseEntity<String> delete (@PathVariable(name =  "id") Long id){
 		return ResponseEntity.ok().body(personService.delete(id));
 	}
 	
