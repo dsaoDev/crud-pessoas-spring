@@ -57,7 +57,7 @@ MySQL WorkBench - Plataforma utilizada para fazer a manipulação e a leitura do
 
 Git e GitHub - Utilizados para commitar o projeto e subir o código para a nuvem(remoto). 
 
-# COMO EXECUTAR O PROJETO
+## COMO EXECUTAR O PROJETO
 ### PRÉ-REQUISITOS: JAVA 17
 
 ```
