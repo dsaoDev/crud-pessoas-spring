@@ -33,7 +33,7 @@ Back end:
 - Maven :heavy_check_mark:
 
   
-## OUTROS :
+## OUTRO :
 
 Data JPA - > Utilizando o JPA para fazer a ponte entre o banco de dados e a aplicação -> ORM
 
