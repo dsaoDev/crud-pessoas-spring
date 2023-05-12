@@ -49,7 +49,7 @@ public class PersonController {
 		return ResponseEntity.ok().body(personService.update(personRequestDTO, id));
 	}
 	
-	@DeleteMapping
+	@DeleteMapping(value = "/{id}")
 	public ResponseEntity<String> delete (@PathVariable(name =  "id") Long id){
 		return ResponseEntity.ok().body(personService.delete(id));
 	}
