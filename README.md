@@ -4,7 +4,7 @@
 
 Essa é uma aplicação de CRUD básico em que consiste em manipular dados no banco através da entidade Pessoa.
 
-## 	FUNCIONALIDADES :
+## FUNCIONALIDADES :
 
 - Encontra uma pessoa registrada no sistema por ID.
 
@@ -15,21 +15,15 @@ Essa é uma aplicação de CRUD básico em que consiste em manipular dados no ba
 - Atualiza dados de uma pessoa do sistema.
 
 - Deleta uma pessoa do sistema.
-
-  ## VERSIONAMENTO: 
-
-  
-
+ ## VERSIONAMENTO: 
+ 
   Versão do Java: 17
 
   Versão do Spring Boot: 3.0.6
-
-
-
+  
 ## FERRAMENTAS :
 
 Back end:
-
 - Java
 - Spring Data JPA
 - Maven Dependências:
@@ -44,10 +38,8 @@ LomBok -> Utilizado para evitar muitas linhas de código através de annotations
 
 Postman - Utilizado para fazer as requisições (CONSUMIR) a aplicação.
 
-STS- IDE escolhida para desenvolver o projeto.
+STS -> IDE escolhida para desenvolver o projeto.
 
-MySQL WorkBench - Plataforma utilizada para fazer a manipulação e a leitura dos dados de uma base de dados do banco MySQL.
+MySQL WorkBench -> Plataforma utilizada para fazer a manipulação e a leitura dos dados de uma base de dados do banco MySQL.
 
-Git e GitHub - Utilizados para commitar o projeto e subir o código para a nuvem(remoto). Bancos de Dados :
-
-MySQL - Usado em ambiente de desenvolvimento e produção.
+Git e GitHub -> Utilizados para commitar o projeto e subir o código para a nuvem(remoto). 
