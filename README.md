@@ -4,7 +4,7 @@
 
 Essa é uma aplicação de CRUD básico em que consiste em manipular dados no banco através da entidade Pessoa.
 
-# FUNCIONALIDADES :
+# 	FUNCIONALIDADES :
 
 - Encontra uma pessoa registrada no sistema por ID.
 
