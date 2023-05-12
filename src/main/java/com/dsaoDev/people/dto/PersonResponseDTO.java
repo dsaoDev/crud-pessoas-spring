@@ -1,5 +1,7 @@
 package com.dsaoDev.people.dto;
 
+import com.dsaoDev.people.entity.Person;
+
 public class PersonResponseDTO {
 	
 	private Long id;
@@ -12,5 +14,12 @@ public class PersonResponseDTO {
 	
 	
 	private Integer age;
+	
+	public PersonResponseDTO(Person person) {
+		this.id = person.getId();
+		this.name = person.getName();
+		this.cpf = person.getCpf();
+		this.age = person.getAge();
+	}
 
 }
