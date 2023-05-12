@@ -45,7 +45,11 @@ MySQL Connector -> Utilizado para se connectar ao Banco de Dados MySQL
 
 ## Programas Utilizados :
 Postman - Utilizado para fazer as requisições (CONSUMIR) a aplicação.
+
 STS- IDE escolhida para desenvolver o projeto.
+
 MySQL -> Utilizado esse BANCO no ambiente de desenvolvimento e produção.
+
 MySQL WorkBench - Plataforma utilizada para fazer a manipulação e a leitura dos dados de uma base de dados do banco MySQL.
+
 Git e GitHub - Utilizados para commitar o projeto e subir o código para a nuvem(remoto). 
