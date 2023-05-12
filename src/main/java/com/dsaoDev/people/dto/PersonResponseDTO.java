@@ -2,6 +2,9 @@ package com.dsaoDev.people.dto;
 
 import com.dsaoDev.people.entity.Person;
 
+import lombok.Getter;
+
+@Getter
 public class PersonResponseDTO {
 	
 	private Long id;
