@@ -60,7 +60,7 @@ Git e GitHub - Utilizados para commitar o projeto e subir o código para a nuvem
 ## COMO EXECUTAR O PROJETO
 ### PRÉ-REQUISITOS: JAVA 17
 
-```
+```bash
 # clonar repositorio
 git clone https://github.com/dsaoDev/crud-spring.git
 
