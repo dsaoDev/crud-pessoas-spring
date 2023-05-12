@@ -15,7 +15,7 @@ Essa é uma aplicação de CRUD básico em que consiste em manipular dados no ba
 - Atualiza dados de uma pessoa do sistema.
 
 - Deleta uma pessoa do sistema.
-- 
+
 ## VERSIONAMENTO: 
 
   Versão do Java: 17
@@ -32,6 +32,9 @@ Back end:
 
 - Maven :heavy_check_mark:
 
+## SCHEMA
+
+![schema](https://github.com/dsaoDev/crud-spring/assets/129787872/83d58fe7-51aa-422e-b3dc-5e305c8184e0)
   
 ## DEPENDENCIAS DO MAVEN :
 
