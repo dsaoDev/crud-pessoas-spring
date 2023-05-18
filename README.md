@@ -65,7 +65,7 @@ Git e GitHub - Utilizados para commitar o projeto e subir o código para a nuvem
 git clone https://github.com/dsaoDev/crud-spring.git
 
 # entrar na pasta do projeto
-cd crud-spring-main
+cd crud-pessoas-spring
 
 # executar o projeto
 ./mvnw spring-boot:run
